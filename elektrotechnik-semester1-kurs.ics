@@ -1,0 +1,1805 @@
+﻿BEGIN:VCALENDAR
+PRODID:-//www.sked.de//EN
+X-SKED-VERSION-TERMINSYNC:3.0
+X-SKED-SYNC-DTSTART:20251013T000000
+X-SKED-SYNC-DTEND:20260119T000000
+X-SKED-LIZENZNEHMER:22
+X-SKED-RESSOURCE:14234
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZNAME:CEST
+DTSTART:19960101T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+DTSTART:19960101T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165804
+SUMMARY:I\;Einführungsveranstaltung Studiengang IET\;Cichos\;CL: 6A.227 (
+	T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: I\nVeranstaltung: Einführungsveranstaltung Studiengang I
+	ET\nDozent: Cichos\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: -\nVeranst
+	altungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251013T140000
+DTEND;TZID=Europe/Berlin:20251013T160000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1162741
+SUMMARY:SU\;ET1011 Mathematik I\;Magalashvili\;CL: 5.0002\;
+LOCATION:CL: 5.0002
+DESCRIPTION:Art: SU\nVeranstaltung: ET1011 Mathematik I\nDozent: Magalash
+	vili\nRaum: CL: 5.0002\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeransta
+	ltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251013T171500
+DTEND;TZID=Europe/Berlin:20251013T203000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165823
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251014T080000
+DTEND;TZID=Europe/Berlin:20251014T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1159539
+SUMMARY:SU\;ET7016 Betriebswirtschaftslehre I\;Gatzer\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET7016 Betriebswirtschaftslehre I\nDo
+	zent: Gatzer\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251014T100000
+DTEND;TZID=Europe/Berlin:20251014T131500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1162742
+SUMMARY:SU\;ET1011 Mathematik I\;Magalashvili\;CL: 5.0002\;
+LOCATION:CL: 5.0002
+DESCRIPTION:Art: SU\nVeranstaltung: ET1011 Mathematik I\nDozent: Magalash
+	vili\nRaum: CL: 5.0002\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeransta
+	ltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251014T171500
+DTEND;TZID=Europe/Berlin:20251014T203000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165824
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251015T080000
+DTEND;TZID=Europe/Berlin:20251015T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1159540
+SUMMARY:SU\;ET7016 Betriebswirtschaftslehre I\;Gatzer\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET7016 Betriebswirtschaftslehre I\nDo
+	zent: Gatzer\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251015T100000
+DTEND;TZID=Europe/Berlin:20251015T131500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166238
+SUMMARY:SU\;ET4014 Softwareentwicklung\;List\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET4014 Softwareentwicklung\nDozent: L
+	ist\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeran
+	staltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251015T163000
+DTEND;TZID=Europe/Berlin:20251015T190000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165825
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251016T080000
+DTEND;TZID=Europe/Berlin:20251016T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1159541
+SUMMARY:SU\;ET7016 Betriebswirtschaftslehre I\;Gatzer\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET7016 Betriebswirtschaftslehre I\nDo
+	zent: Gatzer\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251016T100000
+DTEND;TZID=Europe/Berlin:20251016T131500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166381
+SUMMARY:SU\;ET2012 Elektrotechnik I\;Ferreira Furtado\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Elektrotechnik I\nDozent: Ferr
+	eira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251016T140000
+DTEND;TZID=Europe/Berlin:20251016T171500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165805
+SUMMARY:SU\;ET2012 Werkstoffe der Elektrotechnik\;Keller\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Werkstoffe der Elektrotechnik\n
+	Dozent: Keller\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min P
+	ause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251017T090000
+DTEND;TZID=Europe/Berlin:20251017T113000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166349
+SUMMARY:SU\;ET7016 Wissenschaftliches Arbeiten\;Vollmert-Spiesky\;CL: 6A.
+	227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET7016 Wissenschaftliches Arbeiten\nD
+	ozent: Vollmert-Spiesky\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl.
+	 15 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251017T120000
+DTEND;TZID=Europe/Berlin:20251017T143000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165872
+SUMMARY:SU\;ET4014 Softwareentwicklung\;List\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET4014 Softwareentwicklung\nDozent: L
+	ist\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeran
+	staltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251017T150000
+DTEND;TZID=Europe/Berlin:20251017T173000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165828
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251020T080000
+DTEND;TZID=Europe/Berlin:20251020T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1173742
+SUMMARY:I\;Semesterauftakt-Veranstaltung FB2\;Audimax Haus 1
+LOCATION:
+DESCRIPTION:Art: I\nVeranstaltung: Semesterauftakt-Veranstaltung FB2\nDoz
+	ent: -\nRaum: -\nAnmerkung: Audimax Haus 1\nPause: -\nVeranstaltungsunter
+	gruppe: -
+DTSTART;TZID=Europe/Berlin:20251020T100000
+DTEND;TZID=Europe/Berlin:20251020T110000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1173743
+SUMMARY:*\;Campus Rallye\;
+LOCATION:
+DESCRIPTION:Art: *\nVeranstaltung: Campus Rallye\nDozent: -\nRaum: -\nAnm
+	erkung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251020T113000
+DTEND;TZID=Europe/Berlin:20251020T123000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1173739
+SUMMARY:*\;Campus Rallye\;
+LOCATION:
+DESCRIPTION:Art: *\nVeranstaltung: Campus Rallye\nDozent: -\nRaum: -\nAnm
+	erkung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251020T140000
+DTEND;TZID=Europe/Berlin:20251020T150000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1162744
+SUMMARY:SU\;ET1011 Mathematik I\;Magalashvili\;CL: 5.0002\;
+LOCATION:CL: 5.0002
+DESCRIPTION:Art: SU\nVeranstaltung: ET1011 Mathematik I\nDozent: Magalash
+	vili\nRaum: CL: 5.0002\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeransta
+	ltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251020T171500
+DTEND;TZID=Europe/Berlin:20251020T203000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165826
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251021T080000
+DTEND;TZID=Europe/Berlin:20251021T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166341
+SUMMARY:SU\;ET7016 Wissenschaftliches Arbeiten\;Vollmert-Spiesky\;CL: 6A.
+	227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET7016 Wissenschaftliches Arbeiten\nD
+	ozent: Vollmert-Spiesky\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl.
+	 15 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251021T103000
+DTEND;TZID=Europe/Berlin:20251021T134500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1167685
+SUMMARY:PÜ\;Englisch\;Buchanan\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: PÜ\nVeranstaltung: Englisch\nDozent: Buchanan\nRaum: CL:
+	 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeranstaltungsunter
+	gruppe: -
+DTSTART;TZID=Europe/Berlin:20251021T141500
+DTEND;TZID=Europe/Berlin:20251021T164500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1162745
+SUMMARY:SU\;ET1011 Mathematik I\;Magalashvili\;CL: 5.0002\;
+LOCATION:CL: 5.0002
+DESCRIPTION:Art: SU\nVeranstaltung: ET1011 Mathematik I\nDozent: Magalash
+	vili\nRaum: CL: 5.0002\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeransta
+	ltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251021T171500
+DTEND;TZID=Europe/Berlin:20251021T203000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165827
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251022T080000
+DTEND;TZID=Europe/Berlin:20251022T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166239
+SUMMARY:SU\;ET4014 Softwareentwicklung\;List\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET4014 Softwareentwicklung\nDozent: L
+	ist\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeran
+	staltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251022T163000
+DTEND;TZID=Europe/Berlin:20251022T190000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166343
+SUMMARY:SU\;ET7016 Wissenschaftliches Arbeiten\;Vollmert-Spiesky\;CL: 6A.
+	227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET7016 Wissenschaftliches Arbeiten\nD
+	ozent: Vollmert-Spiesky\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl.
+	 15 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251023T100000
+DTEND;TZID=Europe/Berlin:20251023T131500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166382
+SUMMARY:SU\;ET2012 Elektrotechnik I\;Ferreira Furtado\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Elektrotechnik I\nDozent: Ferr
+	eira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251023T140000
+DTEND;TZID=Europe/Berlin:20251023T171500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165806
+SUMMARY:SU\;ET2012 Werkstoffe der Elektrotechnik\;Keller\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Werkstoffe der Elektrotechnik\n
+	Dozent: Keller\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min P
+	ause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251024T090000
+DTEND;TZID=Europe/Berlin:20251024T113000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165815
+SUMMARY:PCÜ\;ET4014 Labor Softwareentwicklung Gr. 2\;Ferreira Furtado\;CL
+	: 6B.151 (CAD-L)\;
+LOCATION:CL: 6B.151 (CAD-L)
+DESCRIPTION:Art: PCÜ\nVeranstaltung: ET4014 Labor Softwareentwicklung Gr.
+	 2\nDozent: Ferreira Furtado\nRaum: CL: 6B.151 (CAD-L)\nAnmerkung: -\nPau
+	se: inkl. 15 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251024T121500
+DTEND;TZID=Europe/Berlin:20251024T144500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1164322
+SUMMARY:PCÜ\;ET4014 Labor Softwareentwicklung Gr. 1\;List\;CL: 6B.151 (CA
+	D-L)\;
+LOCATION:CL: 6B.151 (CAD-L)
+DESCRIPTION:Art: PCÜ\nVeranstaltung: ET4014 Labor Softwareentwicklung Gr.
+	 1\nDozent: List\nRaum: CL: 6B.151 (CAD-L)\nAnmerkung: -\nPause: inkl. 15
+	 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251024T150000
+DTEND;TZID=Europe/Berlin:20251024T173000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165829
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251027T080000
+DTEND;TZID=Europe/Berlin:20251027T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166344
+SUMMARY:SU\;ET7016 Wissenschaftliches Arbeiten\;Vollmert-Spiesky\;CL: 6A.
+	227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET7016 Wissenschaftliches Arbeiten\nD
+	ozent: Vollmert-Spiesky\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl.
+	 15 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251027T103000
+DTEND;TZID=Europe/Berlin:20251027T134500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1167688
+SUMMARY:PÜ\;Englisch\;Buchanan\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: PÜ\nVeranstaltung: Englisch\nDozent: Buchanan\nRaum: CL:
+	 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeranstaltungsunter
+	gruppe: -
+DTSTART;TZID=Europe/Berlin:20251027T141500
+DTEND;TZID=Europe/Berlin:20251027T164500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1162747
+SUMMARY:SU\;ET1011 Mathematik I\;Magalashvili\;CL: 5.0002\;
+LOCATION:CL: 5.0002
+DESCRIPTION:Art: SU\nVeranstaltung: ET1011 Mathematik I\nDozent: Magalash
+	vili\nRaum: CL: 5.0002\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeransta
+	ltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251027T171500
+DTEND;TZID=Europe/Berlin:20251027T203000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165830
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251028T080000
+DTEND;TZID=Europe/Berlin:20251028T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166384
+SUMMARY:SU\;ET2013 Grundlagen Messtechnik\;Ferreira Furtado\;CL: 6A.227 (
+	T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2013 Grundlagen Messtechnik\nDozent
+	: Ferreira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 m
+	in Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251028T130000
+DTEND;TZID=Europe/Berlin:20251028T161500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1162748
+SUMMARY:SU\;ET1011 Mathematik I\;Magalashvili\;CL: 5.0002\;
+LOCATION:CL: 5.0002
+DESCRIPTION:Art: SU\nVeranstaltung: ET1011 Mathematik I\nDozent: Magalash
+	vili\nRaum: CL: 5.0002\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeransta
+	ltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251028T171500
+DTEND;TZID=Europe/Berlin:20251028T203000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165831
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251029T080000
+DTEND;TZID=Europe/Berlin:20251029T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166385
+SUMMARY:SU\;ET2012 Elektrotechnik I\;Ferreira Furtado\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Elektrotechnik I\nDozent: Ferr
+	eira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251029T123000
+DTEND;TZID=Europe/Berlin:20251029T154500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166240
+SUMMARY:SU\;ET4014 Softwareentwicklung\;List\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET4014 Softwareentwicklung\nDozent: L
+	ist\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeran
+	staltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251029T163000
+DTEND;TZID=Europe/Berlin:20251029T190000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165807
+SUMMARY:SU\;ET2012 Werkstoffe der Elektrotechnik\;Keller\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Werkstoffe der Elektrotechnik\n
+	Dozent: Keller\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min P
+	ause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251031T090000
+DTEND;TZID=Europe/Berlin:20251031T113000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165816
+SUMMARY:PCÜ\;ET4014 Labor Softwareentwicklung Gr. 2\;Ferreira Furtado\;CL
+	: 6B.151 (CAD-L)\;
+LOCATION:CL: 6B.151 (CAD-L)
+DESCRIPTION:Art: PCÜ\nVeranstaltung: ET4014 Labor Softwareentwicklung Gr.
+	 2\nDozent: Ferreira Furtado\nRaum: CL: 6B.151 (CAD-L)\nAnmerkung: -\nPau
+	se: inkl. 15 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251031T121500
+DTEND;TZID=Europe/Berlin:20251031T144500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1164323
+SUMMARY:PCÜ\;ET4014 Labor Softwareentwicklung Gr. 1\;List\;CL: 6B.153 (L)
+	\;
+LOCATION:CL: 6B.153 (L)
+DESCRIPTION:Art: PCÜ\nVeranstaltung: ET4014 Labor Softwareentwicklung Gr.
+	 1\nDozent: List\nRaum: CL: 6B.153 (L)\nAnmerkung: -\nPause: inkl. 15 min
+	 Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251031T150000
+DTEND;TZID=Europe/Berlin:20251031T173000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165832
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251103T080000
+DTEND;TZID=Europe/Berlin:20251103T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166346
+SUMMARY:SU\;ET7016 Wissenschaftliches Arbeiten\;Vollmert-Spiesky\;CL: 6A.
+	227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET7016 Wissenschaftliches Arbeiten\nD
+	ozent: Vollmert-Spiesky\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl.
+	 30 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251103T110000
+DTEND;TZID=Europe/Berlin:20251103T151500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1168783
+SUMMARY:I\;Informationsveranstaltung Praxistransfer I\;Cichos\;CL: 5.0002
+	\;
+LOCATION:CL: 5.0002
+DESCRIPTION:Art: I\nVeranstaltung: Informationsveranstaltung Praxistransf
+	er I\nDozent: Cichos\nRaum: CL: 5.0002\nAnmerkung: -\nPause: -\nVeranstal
+	tungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251103T161500
+DTEND;TZID=Europe/Berlin:20251103T164500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1162750
+SUMMARY:SU\;ET1011 Mathematik I\;Magalashvili\;CL: 5.0002\;
+LOCATION:CL: 5.0002
+DESCRIPTION:Art: SU\nVeranstaltung: ET1011 Mathematik I\nDozent: Magalash
+	vili\nRaum: CL: 5.0002\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeransta
+	ltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251103T171500
+DTEND;TZID=Europe/Berlin:20251103T203000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165833
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251104T080000
+DTEND;TZID=Europe/Berlin:20251104T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1159542
+SUMMARY:SU\;ET7016 Betriebswirtschaftslehre I\;Gatzer\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET7016 Betriebswirtschaftslehre I\nDo
+	zent: Gatzer\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251104T100000
+DTEND;TZID=Europe/Berlin:20251104T131500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1167689
+SUMMARY:PÜ\;Englisch\;Buchanan\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: PÜ\nVeranstaltung: Englisch\nDozent: Buchanan\nRaum: CL:
+	 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeranstaltungsunter
+	gruppe: -
+DTSTART;TZID=Europe/Berlin:20251104T141500
+DTEND;TZID=Europe/Berlin:20251104T164500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1162751
+SUMMARY:SU\;ET1011 Mathematik I\;Magalashvili\;CL: 5.0002\;
+LOCATION:CL: 5.0002
+DESCRIPTION:Art: SU\nVeranstaltung: ET1011 Mathematik I\nDozent: Magalash
+	vili\nRaum: CL: 5.0002\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeransta
+	ltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251104T171500
+DTEND;TZID=Europe/Berlin:20251104T203000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165834
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251105T080000
+DTEND;TZID=Europe/Berlin:20251105T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1159543
+SUMMARY:SU\;ET7016 Betriebswirtschaftslehre I\;Gatzer\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET7016 Betriebswirtschaftslehre I\nDo
+	zent: Gatzer\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251105T100000
+DTEND;TZID=Europe/Berlin:20251105T131500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166241
+SUMMARY:SU\;ET4014 Softwareentwicklung\;List\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET4014 Softwareentwicklung\nDozent: L
+	ist\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeran
+	staltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251105T163000
+DTEND;TZID=Europe/Berlin:20251105T190000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165835
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251106T080000
+DTEND;TZID=Europe/Berlin:20251106T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1159544
+SUMMARY:SU\;ET7016 Betriebswirtschaftslehre I\;Gatzer\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET7016 Betriebswirtschaftslehre I\nDo
+	zent: Gatzer\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251106T100000
+DTEND;TZID=Europe/Berlin:20251106T140000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166383
+SUMMARY:SU\;ET2013 Grundlagen Messtechnik\;Ferreira Furtado\;CL: 6A.227 (
+	T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2013 Grundlagen Messtechnik\nDozent
+	: Ferreira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 m
+	in Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251106T143000
+DTEND;TZID=Europe/Berlin:20251106T174500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165808
+SUMMARY:SU\;ET2012 Werkstoffe der Elektrotechnik\;Keller\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Werkstoffe der Elektrotechnik\n
+	Dozent: Keller\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min P
+	ause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251107T090000
+DTEND;TZID=Europe/Berlin:20251107T113000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165817
+SUMMARY:PCÜ\;ET4014 Labor Softwareentwicklung Gr. 2\;Ferreira Furtado\;CL
+	: 6B.151 (CAD-L)\;
+LOCATION:CL: 6B.151 (CAD-L)
+DESCRIPTION:Art: PCÜ\nVeranstaltung: ET4014 Labor Softwareentwicklung Gr.
+	 2\nDozent: Ferreira Furtado\nRaum: CL: 6B.151 (CAD-L)\nAnmerkung: -\nPau
+	se: inkl. 15 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251107T121500
+DTEND;TZID=Europe/Berlin:20251107T144500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1164324
+SUMMARY:PCÜ\;ET4014 Labor Softwareentwicklung Gr. 1\;List\;CL: 6B.153 (L)
+	\;
+LOCATION:CL: 6B.153 (L)
+DESCRIPTION:Art: PCÜ\nVeranstaltung: ET4014 Labor Softwareentwicklung Gr.
+	 1\nDozent: List\nRaum: CL: 6B.153 (L)\nAnmerkung: -\nPause: inkl. 15 min
+	 Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251107T150000
+DTEND;TZID=Europe/Berlin:20251107T173000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165836
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251110T080000
+DTEND;TZID=Europe/Berlin:20251110T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166399
+SUMMARY:SU\;ET2013 Grundlagen Messtechnik\;Ferreira Furtado\;CL: 6A.227 (
+	T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2013 Grundlagen Messtechnik\nDozent
+	: Ferreira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 m
+	in Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251110T120000
+DTEND;TZID=Europe/Berlin:20251110T151500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165871
+SUMMARY:SU\;ET4014 Softwareentwicklung\;List\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET4014 Softwareentwicklung\nDozent: L
+	ist\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeran
+	staltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251110T160000
+DTEND;TZID=Europe/Berlin:20251110T183000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165837
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251111T080000
+DTEND;TZID=Europe/Berlin:20251111T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1159545
+SUMMARY:SU\;ET7016 Betriebswirtschaftslehre I\;Gatzer\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET7016 Betriebswirtschaftslehre I\nDo
+	zent: Gatzer\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251111T100000
+DTEND;TZID=Europe/Berlin:20251111T140000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1167690
+SUMMARY:PÜ\;Englisch\;Buchanan\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: PÜ\nVeranstaltung: Englisch\nDozent: Buchanan\nRaum: CL:
+	 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeranstaltungsunter
+	gruppe: -
+DTSTART;TZID=Europe/Berlin:20251111T143000
+DTEND;TZID=Europe/Berlin:20251111T170000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1162753
+SUMMARY:SU\;ET1011 Mathematik I\;Magalashvili\;CL: 5.0002\;
+LOCATION:CL: 5.0002
+DESCRIPTION:Art: SU\nVeranstaltung: ET1011 Mathematik I\nDozent: Magalash
+	vili\nRaum: CL: 5.0002\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeransta
+	ltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251111T171500
+DTEND;TZID=Europe/Berlin:20251111T203000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165838
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251112T080000
+DTEND;TZID=Europe/Berlin:20251112T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1159546
+SUMMARY:SU\;ET7016 Betriebswirtschaftslehre I\;Gatzer\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET7016 Betriebswirtschaftslehre I\nDo
+	zent: Gatzer\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251112T100000
+DTEND;TZID=Europe/Berlin:20251112T140000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165839
+SUMMARY:R\;Reserviert\;
+LOCATION:
+DESCRIPTION:Art: R\nVeranstaltung: Reserviert\nDozent: -\nRaum: -\nAnmerk
+	ung: -\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251113T080000
+DTEND;TZID=Europe/Berlin:20251113T094500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1159547
+SUMMARY:SU\;ET7016 Betriebswirtschaftslehre I\;Gatzer\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET7016 Betriebswirtschaftslehre I\nDo
+	zent: Gatzer\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251113T100000
+DTEND;TZID=Europe/Berlin:20251113T140000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166398
+SUMMARY:SU\;ET2012 Elektrotechnik I\;Ferreira Furtado\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Elektrotechnik I\nDozent: Ferr
+	eira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251113T144500
+DTEND;TZID=Europe/Berlin:20251113T180000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165809
+SUMMARY:SU\;ET2012 Werkstoffe der Elektrotechnik\;Keller\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Werkstoffe der Elektrotechnik\n
+	Dozent: Keller\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min P
+	ause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251114T090000
+DTEND;TZID=Europe/Berlin:20251114T113000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165818
+SUMMARY:PCÜ\;ET4014 Labor Softwareentwicklung Gr. 2\;Ferreira Furtado\;CL
+	: 6B.151 (CAD-L)\;
+LOCATION:CL: 6B.151 (CAD-L)
+DESCRIPTION:Art: PCÜ\nVeranstaltung: ET4014 Labor Softwareentwicklung Gr.
+	 2\nDozent: Ferreira Furtado\nRaum: CL: 6B.151 (CAD-L)\nAnmerkung: -\nPau
+	se: inkl. 15 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251114T121500
+DTEND;TZID=Europe/Berlin:20251114T144500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1164325
+SUMMARY:PCÜ\;ET4014 Labor Softwareentwicklung Gr. 1\;List\;CL: 6B.153 (L)
+	\;
+LOCATION:CL: 6B.153 (L)
+DESCRIPTION:Art: PCÜ\nVeranstaltung: ET4014 Labor Softwareentwicklung Gr.
+	 1\nDozent: List\nRaum: CL: 6B.153 (L)\nAnmerkung: -\nPause: inkl. 15 min
+	 Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251114T150000
+DTEND;TZID=Europe/Berlin:20251114T173000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1167696
+SUMMARY:PÜ\;Englisch\;Buchanan\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: PÜ\nVeranstaltung: Englisch\nDozent: Buchanan\nRaum: CL:
+	 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeranstaltungsunter
+	gruppe: -
+DTSTART;TZID=Europe/Berlin:20251117T090000
+DTEND;TZID=Europe/Berlin:20251117T113000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166402
+SUMMARY:SU\;ET2013 Grundlagen Messtechnik\;Ferreira Furtado\;CL: 6A.227 (
+	T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2013 Grundlagen Messtechnik\nDozent
+	: Ferreira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 m
+	in Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251117T120000
+DTEND;TZID=Europe/Berlin:20251117T151500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165866
+SUMMARY:SU\;ET4014 Softwareentwicklung\;List\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET4014 Softwareentwicklung\nDozent: L
+	ist\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeran
+	staltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251117T160000
+DTEND;TZID=Europe/Berlin:20251117T183000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166405
+SUMMARY:SU\;ET2012 Elektrotechnik I\;Ferreira Furtado\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Elektrotechnik I\nDozent: Ferr
+	eira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251118T100000
+DTEND;TZID=Europe/Berlin:20251118T131500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166414
+SUMMARY:SU\;ET2012 Elektrotechnik I\;Ferreira Furtado\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Elektrotechnik I\nDozent: Ferr
+	eira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: -\nVeranstaltung
+	suntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251118T140000
+DTEND;TZID=Europe/Berlin:20251118T153000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166404
+SUMMARY:SU\;ET2012 Elektrotechnik I\;Ferreira Furtado\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Elektrotechnik I\nDozent: Ferr
+	eira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251120T100000
+DTEND;TZID=Europe/Berlin:20251120T131500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166415
+SUMMARY:SU\;ET2012 Elektrotechnik I\;Ferreira Furtado\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Elektrotechnik I\nDozent: Ferr
+	eira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: -\nVeranstaltung
+	suntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251120T140000
+DTEND;TZID=Europe/Berlin:20251120T153000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165810
+SUMMARY:SU\;ET2012 Werkstoffe der Elektrotechnik\;Keller\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Werkstoffe der Elektrotechnik\n
+	Dozent: Keller\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min P
+	ause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251121T093000
+DTEND;TZID=Europe/Berlin:20251121T120000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1167697
+SUMMARY:PÜ\;Englisch\;Buchanan\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: PÜ\nVeranstaltung: Englisch\nDozent: Buchanan\nRaum: CL:
+	 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeranstaltungsunter
+	gruppe: -
+DTSTART;TZID=Europe/Berlin:20251124T090000
+DTEND;TZID=Europe/Berlin:20251124T113000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166407
+SUMMARY:SU\;ET2013 Grundlagen Messtechnik\;Ferreira Furtado\;CL: 6A.227 (
+	T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2013 Grundlagen Messtechnik\nDozent
+	: Ferreira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 m
+	in Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251124T120000
+DTEND;TZID=Europe/Berlin:20251124T151500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165867
+SUMMARY:SU\;ET4014 Softwareentwicklung\;List\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET4014 Softwareentwicklung\nDozent: L
+	ist\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeran
+	staltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251124T160000
+DTEND;TZID=Europe/Berlin:20251124T183000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166368
+SUMMARY:PÜ\;ET2013 Labor Messtechnik\;Fabian\, Ferreira Furtado\;CL: 6B.1
+	58 (E-L)\;Gruppe 1
+LOCATION:CL: 6B.158 (E-L)
+DESCRIPTION:Art: PÜ\nVeranstaltung: ET2013 Labor Messtechnik\nDozent: Fab
+	ian\, Ferreira Furtado\nRaum: CL: 6B.158 (E-L)\nAnmerkung: Gruppe 1\nPaus
+	e: inkl. 30 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251125T100000
+DTEND;TZID=Europe/Berlin:20251125T141500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166373
+SUMMARY:PÜ\;ET2013 Labor Messtechnik\;Fabian\, Ferreira Furtado\;CL: 6B.1
+	58 (E-L)\;Gruppe 2
+LOCATION:CL: 6B.158 (E-L)
+DESCRIPTION:Art: PÜ\nVeranstaltung: ET2013 Labor Messtechnik\nDozent: Fab
+	ian\, Ferreira Furtado\nRaum: CL: 6B.158 (E-L)\nAnmerkung: Gruppe 2\nPaus
+	e: inkl. 30 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251127T100000
+DTEND;TZID=Europe/Berlin:20251127T141500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165811
+SUMMARY:SU\;ET2012 Werkstoffe der Elektrotechnik\;Keller\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Werkstoffe der Elektrotechnik\n
+	Dozent: Keller\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min P
+	ause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251128T093000
+DTEND;TZID=Europe/Berlin:20251128T120000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165819
+SUMMARY:PCÜ\;ET4014 Labor Softwareentwicklung Gr. 2\;Ferreira Furtado\;CL
+	: 6B.153 (L)\;
+LOCATION:CL: 6B.153 (L)
+DESCRIPTION:Art: PCÜ\nVeranstaltung: ET4014 Labor Softwareentwicklung Gr.
+	 2\nDozent: Ferreira Furtado\nRaum: CL: 6B.153 (L)\nAnmerkung: -\nPause: 
+	inkl. 15 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251128T121500
+DTEND;TZID=Europe/Berlin:20251128T144500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1164326
+SUMMARY:PCÜ\;ET4014 Labor Softwareentwicklung Gr. 1\;List\;CL: 6B.153 (L)
+	\;
+LOCATION:CL: 6B.153 (L)
+DESCRIPTION:Art: PCÜ\nVeranstaltung: ET4014 Labor Softwareentwicklung Gr.
+	 1\nDozent: List\nRaum: CL: 6B.153 (L)\nAnmerkung: -\nPause: inkl. 15 min
+	 Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251128T150000
+DTEND;TZID=Europe/Berlin:20251128T173000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165868
+SUMMARY:SU\;ET4014 Softwareentwicklung\;List\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET4014 Softwareentwicklung\nDozent: L
+	ist\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeran
+	staltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251201T160000
+DTEND;TZID=Europe/Berlin:20251201T183000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166409
+SUMMARY:SU\;ET2013 Grundlagen Messtechnik\;Ferreira Furtado\;CL: 6A.227 (
+	T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2013 Grundlagen Messtechnik\nDozent
+	: Ferreira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 m
+	in Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251202T100000
+DTEND;TZID=Europe/Berlin:20251202T131500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166413
+SUMMARY:SU\;ET2013 Grundlagen Messtechnik\;Ferreira Furtado\;CL: 6A.227 (
+	T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2013 Grundlagen Messtechnik\nDozent
+	: Ferreira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: -\nVeranst
+	altungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251202T140000
+DTEND;TZID=Europe/Berlin:20251202T153000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166366
+SUMMARY:PÜ\;ET2013 Labor Messtechnik\;Fabian\, Ferreira Furtado\;CL: 6B.1
+	58 (E-L)\;Gruppe 1
+LOCATION:CL: 6B.158 (E-L)
+DESCRIPTION:Art: PÜ\nVeranstaltung: ET2013 Labor Messtechnik\nDozent: Fab
+	ian\, Ferreira Furtado\nRaum: CL: 6B.158 (E-L)\nAnmerkung: Gruppe 1\nPaus
+	e: inkl. 30 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251203T100000
+DTEND;TZID=Europe/Berlin:20251203T141500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166367
+SUMMARY:PÜ\;ET2013 Labor Messtechnik\;Fabian\, Ferreira Furtado\;CL: 6B.1
+	58 (E-L)\;Gruppe 2
+LOCATION:CL: 6B.158 (E-L)
+DESCRIPTION:Art: PÜ\nVeranstaltung: ET2013 Labor Messtechnik\nDozent: Fab
+	ian\, Ferreira Furtado\nRaum: CL: 6B.158 (E-L)\nAnmerkung: Gruppe 2\nPaus
+	e: inkl. 30 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251204T100000
+DTEND;TZID=Europe/Berlin:20251204T141500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165812
+SUMMARY:SU\;ET2012 Werkstoffe der Elektrotechnik\;Keller\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Werkstoffe der Elektrotechnik\n
+	Dozent: Keller\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min P
+	ause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251205T093000
+DTEND;TZID=Europe/Berlin:20251205T120000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165820
+SUMMARY:PCÜ\;ET4014 Labor Softwareentwicklung Gr. 2\;Ferreira Furtado\;CL
+	: 6B.153 (L)\;
+LOCATION:CL: 6B.153 (L)
+DESCRIPTION:Art: PCÜ\nVeranstaltung: ET4014 Labor Softwareentwicklung Gr.
+	 2\nDozent: Ferreira Furtado\nRaum: CL: 6B.153 (L)\nAnmerkung: -\nPause: 
+	inkl. 15 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251205T121500
+DTEND;TZID=Europe/Berlin:20251205T144500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1164327
+SUMMARY:PCÜ\;ET4014 Labor Softwareentwicklung Gr. 1\;List\;CL: 6B.153 (L)
+	\;
+LOCATION:CL: 6B.153 (L)
+DESCRIPTION:Art: PCÜ\nVeranstaltung: ET4014 Labor Softwareentwicklung Gr.
+	 1\nDozent: List\nRaum: CL: 6B.153 (L)\nAnmerkung: -\nPause: inkl. 15 min
+	 Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251205T150000
+DTEND;TZID=Europe/Berlin:20251205T173000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1167698
+SUMMARY:PÜ\;Englisch\;Buchanan\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: PÜ\nVeranstaltung: Englisch\nDozent: Buchanan\nRaum: CL:
+	 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeranstaltungsunter
+	gruppe: -
+DTSTART;TZID=Europe/Berlin:20251208T090000
+DTEND;TZID=Europe/Berlin:20251208T113000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165870
+SUMMARY:SU\;ET4014 Softwareentwicklung\;List\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET4014 Softwareentwicklung\nDozent: L
+	ist\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pause\nVeran
+	staltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251208T160000
+DTEND;TZID=Europe/Berlin:20251208T183000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1162755
+SUMMARY:SU\;ET1011 Mathematik I\;Magalashvili\;ONLINE
+LOCATION:
+DESCRIPTION:Art: SU\nVeranstaltung: ET1011 Mathematik I\nDozent: Magalash
+	vili\nRaum: -\nAnmerkung: ONLINE\nPause: inkl. 15 min Pause\nVeranstaltun
+	gsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251209T171500
+DTEND;TZID=Europe/Berlin:20251209T203000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166352
+SUMMARY:PÜ\;ET2013 Labor Messtechnik\;Fabian\, Ferreira Furtado\;CL: 6B.1
+	58 (E-L)\;Gruppe 1
+LOCATION:CL: 6B.158 (E-L)
+DESCRIPTION:Art: PÜ\nVeranstaltung: ET2013 Labor Messtechnik\nDozent: Fab
+	ian\, Ferreira Furtado\nRaum: CL: 6B.158 (E-L)\nAnmerkung: Gruppe 1\nPaus
+	e: inkl. 30 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251210T100000
+DTEND;TZID=Europe/Berlin:20251210T154500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166353
+SUMMARY:PÜ\;ET2013 Labor Messtechnik\;Fabian\, Ferreira Furtado\;CL: 6B.1
+	58 (E-L)\;Gruppe 2
+LOCATION:CL: 6B.158 (E-L)
+DESCRIPTION:Art: PÜ\nVeranstaltung: ET2013 Labor Messtechnik\nDozent: Fab
+	ian\, Ferreira Furtado\nRaum: CL: 6B.158 (E-L)\nAnmerkung: Gruppe 2\nPaus
+	e: inkl. 30 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251211T083000
+DTEND;TZID=Europe/Berlin:20251211T141500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165821
+SUMMARY:PCÜ\;ET4014 Labor Softwareentwicklung Gr. 2\;Ferreira Furtado\;CL
+	: 6B.153 (L)\;
+LOCATION:CL: 6B.153 (L)
+DESCRIPTION:Art: PCÜ\nVeranstaltung: ET4014 Labor Softwareentwicklung Gr.
+	 2\nDozent: Ferreira Furtado\nRaum: CL: 6B.153 (L)\nAnmerkung: -\nPause: 
+	inkl. 15 min Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251211T150000
+DTEND;TZID=Europe/Berlin:20251211T173000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165813
+SUMMARY:SU\;ET2012 Werkstoffe der Elektrotechnik\;Keller\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Werkstoffe der Elektrotechnik\n
+	Dozent: Keller\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min P
+	ause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251212T093000
+DTEND;TZID=Europe/Berlin:20251212T120000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1164328
+SUMMARY:PCÜ\;ET4014 Labor Softwareentwicklung Gr. 1\;List\;CL: 6B.153 (L)
+	\;
+LOCATION:CL: 6B.153 (L)
+DESCRIPTION:Art: PCÜ\nVeranstaltung: ET4014 Labor Softwareentwicklung Gr.
+	 1\nDozent: List\nRaum: CL: 6B.153 (L)\nAnmerkung: -\nPause: inkl. 15 min
+	 Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251212T150000
+DTEND;TZID=Europe/Berlin:20251212T173000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166416
+SUMMARY:SU\;ET2012 Elektrotechnik I\;Ferreira Furtado\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Elektrotechnik I\nDozent: Ferr
+	eira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251215T121500
+DTEND;TZID=Europe/Berlin:20251215T153000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166236
+SUMMARY:PCÜ\;ET4014 Labor Softwareentwicklung\;Ferreira Furtado\, List\;C
+	L: 6A.227 (T)\;für alle\, keine Kursteilung
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: PCÜ\nVeranstaltung: ET4014 Labor Softwareentwicklung\nDo
+	zent: Ferreira Furtado\, List\nRaum: CL: 6A.227 (T)\nAnmerkung: für alle\,
+	 keine Kursteilung\nPause: inkl. 15 min Pause\nVeranstaltungsuntergruppe:
+	 -
+DTSTART;TZID=Europe/Berlin:20251215T160000
+DTEND;TZID=Europe/Berlin:20251215T183000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166396
+SUMMARY:SU\;ET2012 Elektrotechnik I\;Ferreira Furtado\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Elektrotechnik I\nDozent: Ferr
+	eira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251216T100000
+DTEND;TZID=Europe/Berlin:20251216T131500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166411
+SUMMARY:SU\;ET2013 Grundlagen Messtechnik\;Ferreira Furtado\;CL: 6A.227 (
+	T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2013 Grundlagen Messtechnik\nDozent
+	: Ferreira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 m
+	in Pause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251216T131500
+DTEND;TZID=Europe/Berlin:20251216T163000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166417
+SUMMARY:SU\;ET2012 Elektrotechnik I\;Ferreira Furtado\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Elektrotechnik I\nDozent: Ferr
+	eira Furtado\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min Pau
+	se\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251218T100000
+DTEND;TZID=Europe/Berlin:20251218T131500
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1165814
+SUMMARY:SU\;ET2012 Werkstoffe der Elektrotechnik\;Keller\;CL: 6A.227 (T)\;
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: SU\nVeranstaltung: ET2012 Werkstoffe der Elektrotechnik\n
+	Dozent: Keller\nRaum: CL: 6A.227 (T)\nAnmerkung: -\nPause: inkl. 15 min P
+	ause\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20251219T093000
+DTEND;TZID=Europe/Berlin:20251219T120000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1166237
+SUMMARY:PCÜ\;ET4014 Labor Softwareentwicklung\;Ferreira Furtado\, List\;C
+	L: 6A.227 (T)\;für alle\, keine Kursteilung
+LOCATION:CL: 6A.227 (T)
+DESCRIPTION:Art: PCÜ\nVeranstaltung: ET4014 Labor Softwareentwicklung\nDo
+	zent: Ferreira Furtado\, List\nRaum: CL: 6A.227 (T)\nAnmerkung: für alle\,
+	 keine Kursteilung\nPause: inkl. 15 min Pause\nVeranstaltungsuntergruppe:
+	 -
+DTSTART;TZID=Europe/Berlin:20251219T150000
+DTEND;TZID=Europe/Berlin:20251219T173000
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1168779
+SUMMARY:Klausur\;ET2012 Elektrotechnische Grundlagen I\;Ferreira Furtado\;
+	ET I & Werkstoffe der ET
+LOCATION:
+DESCRIPTION:Art: Klausur\nVeranstaltung: ET2012 Elektrotechnische Grundla
+	gen I\nDozent: Ferreira Furtado\nRaum: -\nAnmerkung: ET I & Werkstoffe de
+	r ET\nPause: -\nVeranstaltungsuntergruppe: -
+DTSTART;TZID=Europe/Berlin:20260107T090000
+DTEND;TZID=Europe/Berlin:20260107T120000
+X-SKED-OUTLOOKFARBINDEX:16
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1168777
+SUMMARY:Klausur\;ET7016 Betriebliches Management I\;Gatzer\;
+LOCATION:
+DESCRIPTION:Art: Klausur\nVeranstaltung: ET7016 Betriebliches Management 
+	I\nDozent: Gatzer\nRaum: -\nAnmerkung: -\nPause: -\nVeranstaltungsuntergr
+	uppe: -
+DTSTART;TZID=Europe/Berlin:20260112T140000
+DTEND;TZID=Europe/Berlin:20260112T160000
+X-SKED-OUTLOOKFARBINDEX:16
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250926T201305Z
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:sked.de1168780
+SUMMARY:Klausur\;ET1011 Mathematik I\;Ferreira Furtado\;
+LOCATION:
+DESCRIPTION:Art: Klausur\nVeranstaltung: ET1011 Mathematik I\nDozent: Fer
+	reira Furtado\nRaum: -\nAnmerkung: -\nPause: -\nVeranstaltungsuntergruppe
+	: -
+DTSTART;TZID=Europe/Berlin:20260116T140000
+DTEND;TZID=Europe/Berlin:20260116T160000
+X-SKED-OUTLOOKFARBINDEX:16
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+END:VCALENDAR
