@@ -1,14 +1,323 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <title>Veranstaltungsplan</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>البرنامج الدراسي - عرض من ICS</title>
+<style>
+  body { font-family: Arial, sans-serif; direction: rtl; padding: 16px; }
+  h1 { text-align:center; }
+  #controls { max-width:900px; margin: 10px auto; display:flex; gap:10px; justify-content:center; }
+  #calendar { max-width:900px; margin: 8px auto; }
+  table { width:100%; border-collapse:collapse; }
+  th, td { border:1px solid #ddd; padding:8px; text-align:center; vertical-align:top; min-width:80px; }
+  th { background:#f4f4f4; }
+  .event { padding:6px; margin:4px 0; cursor:pointer; border-radius:6px; color:#111; }
+  /* ألوان افتراضية حسب الكلمة بالمادة */
+  .color-math { background:#f88; }    /* رياضيات */
+  .color-phys { background:#8af; }    /* فيزياء */
+  .color-cs   { background:#8f8; }    /* برمجة */
+  .color-default { background:#ffd; }
+  #details { position:fixed; left:50%; top:50%; transform:translate(-50%,-50%); background:#fff;
+             border:1px solid #ccc; padding:16px; box-shadow:0 6px 20px rgba(0,0,0,0.2); display:none; z-index:50; width:320px; }
+  #overlay { position:fixed; inset:0; background:rgba(0,0,0,0.35); display:none; z-index:40; }
+  .closeBtn { display:inline-block; margin-top:10px; padding:6px 10px; cursor:pointer; background:#eee; border-radius:4px; }
+  #listView { max-width:900px; margin:12px auto; }
+  .small { font-size:0.85em; color:#555; }
+</style>
 </head>
 <body>
+  <h1>عرض البرنامج الدراسي (من ملف .ics)</h1>
 
-  <h2>Veranstaltungsplan</h2>
+  <div id="controls">
+    <button id="loadBtn">جلب ومزامنة من iCal (ICS)</button>
+    <label><input type="checkbox" id="showTable" checked> عرض كجدول أسبوعي</label>
+    <label><input type="checkbox" id="autoRefresh"> جلب تلقائي عند فتح الصفحة</label>
+  </div>
 
-  <iframe src="Veranstaltungsplan.html" width="100%" height="600" style="border:1px solid #ccc;"></iframe>
+  <div id="calendar"></div>
+  <div id="listView"></div>
 
+  <div id="overlay"></div>
+  <div id="details">
+    <div id="d_title" style="font-weight:700"></div>
+    <div id="d_time" class="small"></div>
+    <div id="d_loc" class="small"></div>
+    <div id="d_desc" style="margin-top:8px; white-space:pre-wrap"></div>
+    <div style="text-align:center;">
+      <span class="closeBtn" onclick="closeDetails()">اغلاق</span>
+    </div>
+  </div>
+
+<script>
+/* === اضف هنا رابط الـ ICS الخاص بالجامعة === */
+const ICS_URL = "https://moodle.hwr-berlin.de/fb2-stundenplan/download.php?doctype=.ics&url=./fb2-stundenplaene/elektrotechnik/semester1/kurs"; // <-- حط الرابط هنا
+
+// إعدادات الوقت / شرائح زمنية تبسيطية (تقدر تغيرها حسب جدولكم)
+const timeSlots = [
+  {label:"08:00", h:8},
+  {label:"09:00", h:9},
+  {label:"10:00", h:10},
+  {label:"11:00", h:11},
+  {label:"12:00", h:12},
+  {label:"13:00", h:13},
+  {label:"14:00", h:14},
+  {label:"15:00", h:15},
+  {label:"16:00", h:16},
+];
+
+// خريطة كلمات للمادة -> كلاس لون
+const subjectColors = [
+  {match:/رياضيات|Math/i, cls:"color-math"},
+  {match:/فيزياء|Phys/i, cls:"color-phys"},
+  {match:/برمجة|Programm|Programming|CS/i, cls:"color-cs"},
+];
+
+function getColorClass(summary){
+  for(const s of subjectColors){
+    if(s.match.test(summary)) return s.cls;
+  }
+  return "color-default";
+}
+
+/* ======== جلب وقراءة ملف ICS ======== */
+async function fetchICS(url){
+  const res = await fetch(url);
+  if(!res.ok) throw new Error("فشل جلب الملف: " + res.status);
+  return await res.text();
+}
+
+/* ======== محول نص ICS إلى قائمة أحداث بسيطة ========
+   نبحث عن VEVENTs ونستخرج: DTSTART, DTEND, SUMMARY, LOCATION, DESCRIPTION
+*/
+function parseICS(icsText){
+  const lines = icsText.replace(/\r\n/g, "\n").split("\n");
+  const events = [];
+  let cur = null;
+
+  function finishEvent(){
+    if(!cur) return;
+    // تحويل التاريخ (بسيط) — نأخذ القيم كما هي ونجرب parse
+    try {
+      // بعض ICS يكتب DTSTART;TZID=Europe/Berlin:20251001T080000
+      const dtstartRaw = cur.DTSTART || cur["DTSTART;TZID=Europe/Berlin"] || cur["DTSTART;TZID=UTC"] || cur["DTSTART;VALUE=DATE-TIME"] || cur["DTSTART;TZID=Asia/Damascus"] || cur["DTSTART;TZID=Europe/Berlin;VALUE=DATE-TIME"];
+      const dtendRaw   = cur.DTEND   || cur["DTEND;TZID=Europe/Berlin"] || cur["DTEND;VALUE=DATE-TIME"];
+      const start = parseICSDatetime(dtstartRaw);
+      const end   = parseICSDatetime(dtendRaw);
+      events.push({
+        uid: cur.UID || "",
+        summary: cur.SUMMARY || "",
+        location: cur.LOCATION || "",
+        description: cur.DESCRIPTION || "",
+        start, end
+      });
+    } catch(e){
+      // تجاهل حدث اذا صار خطأ
+    }
+    cur = null;
+  }
+
+  for(let i=0;i<lines.length;i++){
+    let line = lines[i];
+    if(line.startsWith("BEGIN:VEVENT")){
+      cur = {};
+      continue;
+    } else if(line.startsWith("END:VEVENT")){
+      finishEvent();
+      continue;
+    } else if(!cur) {
+      continue;
+    }
+    // متابعة السطور التي يمكن أن تكون مطوية (folded) حسب مواصفة ICS: السطر التالي يبدأ بمسافة -> تابع للسابق
+    while(i+1 < lines.length && lines[i+1].startsWith(" ")){
+      line += lines[i+1].slice(1);
+      i++;
+    }
+    const sepIndex = line.indexOf(":");
+    if(sepIndex === -1) continue;
+    const key = line.slice(0, sepIndex); // ممكن يحتوي على بيانات TZ مثل DTSTART;TZID=...
+    const val = line.slice(sepIndex+1);
+    // نحتاج نحتفظ ببعض المفاتيح بالصور المختلفة
+    cur[key] = (cur[key] ? (cur[key] + "\n" + val) : val);
+  }
+  return events;
+}
+
+/* parse datetime from ICS token like 20251001T080000Z OR 20251001T080000 */
+function parseICSDatetime(token){
+  if(!token) return null;
+  // اذا فيه Z -> UTC
+  // او اذا فيه تاريخ فقط YYYYMMDD -> treat as full day
+  // نأخذ أول 15 حرف تقريبا
+  // إزالة أي جزء قبل ":" لو كان key:VALUE pairs passed
+  token = token.trim();
+  // بعض المفاتيح تأتينا مع معلمة قبلها مثل "DTSTART;TZID=Europe/Berlin:20251001T080000"
+  if(token.includes(":") && /^[A-Z]/.test(token) === false) {
+    // already a value
+  }
+  // إذا القيمة فيها T
+  let val = token;
+  // لو القيمة تحتوي على + or Z -> استخدم Date parse من ISO
+  // نحاول تحويلها الى صيغة مقروءة من Date
+  // اذا كان وِصاف التاريخ بصيغة YYYYMMDDTHHMMSS أو YYYYMMDDTHHMMSSZ
+  const m = val.match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z?$/);
+  if(m){
+    const iso = `${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:${m[6]}${val.endsWith("Z") ? "Z" : ""}`;
+    return new Date(iso);
+  }
+  // بعض ملفات ICS تعطي دقائق فقط أو بدون ثواني
+  const m2 = val.match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})Z?$/);
+  if(m2){
+    const iso = `${m2[1]}-${m2[2]}-${m2[3]}T${m2[4]}:${m2[5]}:00${val.endsWith("Z") ? "Z" : ""}`;
+    return new Date(iso);
+  }
+  // اذا VALUE=DATE (يوم كامل) بصيغة YYYYMMDD
+  const m3 = val.match(/^(\d{4})(\d{2})(\d{2})$/);
+  if(m3){
+    return new Date(`${m3[1]}-${m3[2]}-${m3[3]}T00:00:00`);
+  }
+  // محاولات مرور أخيرة
+  const tryDate = new Date(val);
+  if(!isNaN(tryDate)) return tryDate;
+  return null;
+}
+
+/* ===== عرض الجدول الأسبوعي ===== */
+function renderWeeklyTable(events){
+  const container = document.getElementById("calendar");
+  container.innerHTML = "";
+
+  // أيام الأسبوع بالعربي (نستخدم Monday..Sunday)
+  const days = ["الاثنين","الثلاثاء","الأربعاء","الخميس","الجمعة","السبت","الأحد"];
+  // نجهز مصفوفة للمحتوى
+  const grid = {};
+  for(const d of days) grid[d] = {};
+  // نوّزع الأحداث على اليوم والساعة الأقرب
+  for(const ev of events){
+    if(!ev.start) continue;
+    const d = ev.start.getDay(); // 0=Sun,1=Mon...
+    // نريد Monday=0 index
+    const idx = (d === 0) ? 6 : d - 1; // 0..6 Monday..Sunday
+    const dayName = days[idx];
+    // نختار أقرب توقيت بداية لtimeSlots
+    const hour = ev.start.getHours();
+    // إيجاد أقرب slot
+    let slotLabel = timeSlots.reduce((best, s) => {
+      return Math.abs(s.h - hour) < Math.abs(best.h - hour) ? s : best;
+    }, timeSlots[0]).label;
+    // اجمع الحدث بالمفتاح
+    if(!grid[dayName][slotLabel]) grid[dayName][slotLabel] = [];
+    grid[dayName][slotLabel].push(ev);
+  }
+
+  // بناء الجدول
+  const tbl = document.createElement("table");
+  const thead = document.createElement("thead");
+  const trHead = document.createElement("tr");
+  trHead.appendChild(document.createElement("th")); // زاوية للأوقات
+  for(const d of days){
+    const th = document.createElement("th");
+    th.textContent = d;
+    trHead.appendChild(th);
+  }
+  thead.appendChild(trHead);
+  tbl.appendChild(thead);
+
+  const tbody = document.createElement("tbody");
+  for(const slot of timeSlots){
+    const tr = document.createElement("tr");
+    const th = document.createElement("th");
+    th.textContent = slot.label;
+    tr.appendChild(th);
+    for(const d of days){
+      const td = document.createElement("td");
+      const list = grid[d][slot.label] || [];
+      for(const ev of list){
+        const div = document.createElement("div");
+        div.className = "event " + getColorClass(ev.summary);
+        div.textContent = ev.summary + " — " + (ev.location || "");
+        div.onclick = () => showDetailsForEvent(ev);
+        td.appendChild(div);
+      }
+      tr.appendChild(td);
+    }
+    tbody.appendChild(tr);
+  }
+  tbl.appendChild(tbody);
+  container.appendChild(tbl);
+}
+
+/* ===== عرض قائمة الأحداث (للموبايل أو التفاصيل) ===== */
+function renderList(events){
+  const c = document.getElementById("listView");
+  c.innerHTML = "<h3>قائمة المحاضرات</h3>";
+  const ul = document.createElement("div");
+  events.sort((a,b) => (a.start && b.start) ? a.start - b.start : 0);
+  for(const ev of events){
+    const card = document.createElement("div");
+    card.style.border = "1px solid #eee";
+    card.style.padding = "8px";
+    card.style.margin = "6px 0";
+    const t = document.createElement("div");
+    t.style.fontWeight = "700";
+    t.textContent = ev.summary;
+    const small = document.createElement("div");
+    small.className = "small";
+    small.textContent = ev.start ? `${ev.start.toLocaleString()} — ${ev.end ? ev.end.toLocaleTimeString() : ""}` : "";
+    const loc = document.createElement("div");
+    loc.className = "small";
+    loc.textContent = ev.location || "";
+    card.appendChild(t); card.appendChild(small); card.appendChild(loc);
+    card.onclick = () => showDetailsForEvent(ev);
+    ul.appendChild(card);
+  }
+  c.appendChild(ul);
+}
+
+/* ===== تفاصيل مودال ===== */
+function showDetailsForEvent(ev){
+  document.getElementById("d_title").textContent = ev.summary;
+  document.getElementById("d_time").textContent = ev.start ? `${ev.start.toLocaleString()} — ${ev.end ? ev.end.toLocaleString() : ""}` : "";
+  document.getElementById("d_loc").textContent = ev.location || "";
+  document.getElementById("d_desc").textContent = ev.description || "";
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("details").style.display = "block";
+}
+function closeDetails(){
+  document.getElementById("overlay").style.display = "none";
+  document.getElementById("details").style.display = "none";
+}
+
+/* ===== زر الجلب ===== */
+document.getElementById("loadBtn").addEventListener("click", async () => {
+  try {
+    document.getElementById("calendar").innerHTML = "<p>جاري الجلب...</p>";
+    const txt = await fetchICS(ICS_URL);
+    const events = parseICS(txt);
+    // ترتيب الأحداث وإظهار
+    if(document.getElementById("showTable").checked){
+      renderWeeklyTable(events);
+      document.getElementById("listView").style.display = "none";
+    } else {
+      renderList(events);
+      document.getElementById("calendar").style.display = "none";
+    }
+    // دائما نعرض القائمة كنسخة تحت الجدول
+    renderList(events);
+  } catch(err){
+    alert("خطأ: " + err.message);
+    document.getElementById("calendar").innerHTML = "";
+  }
+});
+
+// auto refresh option
+if(document.getElementById("autoRefresh").checked){
+  document.getElementById("loadBtn").click();
+}
+// لو المستخدم فعّل الـ autoRefresh بعدين:
+document.getElementById("autoRefresh").addEventListener("change",(e)=>{
+  if(e.target.checked) document.getElementById("loadBtn").click();
+});
+</script>
 </body>
 </html>
