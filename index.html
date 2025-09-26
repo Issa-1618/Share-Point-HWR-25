@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>البرنامج الدراسي</title>
+  <style>
+    body { font-family: Arial, sans-serif; direction: rtl; text-align: center; }
+    table { border-collapse: collapse; width: 80%; margin: 20px auto; }
+    th, td { border: 1px solid #ccc; padding: 10px; cursor: pointer; }
+    th { background: #eee; }
+    .math { background: #f88; }    /* أحمر = رياضيات */
+    .physics { background: #8af; } /* أزرق = فيزياء */
+    .cs { background: #8f8; }      /* أخضر = برمجة */
+  </style>
+</head>
+<body>
+
+  <h2>البرنامج الدراسي للأسبوع</h2>
+
+  <table>
+    <tr>
+      <th>اليوم</th>
+      <th>08:00 - 10:00</th>
+      <th>10:00 - 12:00</th>
+      <th>12:00 - 14:00</th>
+    </tr>
+    <tr>
+      <td>الاثنين</td>
+      <td class="math" onclick="showDetails('رياضيات','د. أحمد','قاعة 201','08:00 - 10:00')">رياضيات</td>
+      <td class="physics" onclick="showDetails('فيزياء','د. ليلى','قاعة 105','10:00 - 12:00')">فيزياء</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>الثلاثاء</td>
+      <td></td>
+      <td class="cs" onclick="showDetails('برمجة','م. سامر','مختبر 3','10:00 - 12:00')">برمجة</td>
+      <td></td>
+    </tr>
+  </table>
+
+  <script>
+    function showDetails(subject, teacher, room, time) {
+      alert("المادة: " + subject +
+            "\nالمحاضر: " + teacher +
+            "\nالمكان: " + room +
+            "\nالوقت: " + time);
+    }
+  </script>
+
+</body>
+</html>
